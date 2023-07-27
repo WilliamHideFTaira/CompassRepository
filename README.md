@@ -9,8 +9,8 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 3. [Meios de contato](#contato)
 4. [Sprints](#sprints)
 5. [Sprint 1](#sprint-1)
-    1. [Sprint 1 - GitHub](#sprint-1:-git-e-github)
-    2. [Sprint 1 - Linux](#sprint1-linux)
+    * [Sprint 1 - GitHub](#sprint-1:-git-e-github)
+    * [Sprint 1 - Linux](#sprint-1-linux)
 
 ## Sobre mim:
 
@@ -52,16 +52,13 @@ GitHub é um dos serviços de gerenciamento de repositórios, gratuito e é onde
 
 A operação no Git é por meio de um terminal, com comandos que podem ser agrupados por função:
 
-* [Comandos Fundamentais](sprint-1/Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
-* [Comandos de Branches](sprint-1/Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
-* [Comandos de atualização e compartilhamento de repositórios](sprint-1/Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
+* [Comandos Fundamentais](Sprint-1/Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
+* [Comandos de Branches](Sprint-1/Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
+* [Comandos de atualização e compartilhamento de repositórios](Sprint-1/Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
 * Comandos de análise e inspeção de repositórios;
 * Comandos de administração de repositórios;
 
-#### Commits
-
-Durante a execução de commits, é importante sempre
-
+### Sprint 1: Linux
 ```
 
 ```
