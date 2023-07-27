@@ -11,9 +11,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 5. [Sprint 1](#Sprint-1)
     1. [Sprint 1 - GitHub](#Sprint-1:-Git-e-Github)
     2. [Sprint 1 - Linux](#Sprint1-Linux)
-6. [Sprint 2](#Sprint-2)
-   
-   
+    
 ## Sobre mim:
 
 * **Nome**: _William Hide Felix Taira_
@@ -56,7 +54,7 @@ A operação no Git é por meio de um terminal, com comandos que podem ser agrup
 
 * [Comandos Fundamentais](Sprint-1/Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
 * [Comandos de Branches](Sprint-1/Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
-* Comandos de atualização e compartilhamento de repositórios;
+* [Comandos de atualização e compartilhamento de repositórios](Sprint-1/Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
 * Comandos de análise e inspeção de repositórios;
 * Comandos de administração de repositórios;
 
@@ -67,3 +65,5 @@ Durante a execução de commits, é importante sempre
 ```
 
 ```
+
+[def]: #Sprint-2
