@@ -11,7 +11,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 5. [Sprint 1](#Sprint-1)
     1. [Sprint 1 - GitHub](#Sprint-1:-Git-e-Github)
     2. [Sprint 1 - Linux](#Sprint1-Linux)
-    
+
 ## Sobre mim:
 
 * **Nome**: _William Hide Felix Taira_
@@ -36,7 +36,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 * *[LinkedIn](https://www.linkedin.com/in/william-hide-felix-taira-367773277/)*
 * *[Instagram](https://www.instagram.com/wil.hide/?hl=pt-br)*
 ---
-# Sprints
+## Sprints
 
 Cada Sprint receberá um pequeno resumo neste arquivo, que receberá atualizações com o decorrer do estágio. Em cada resumo, haverão links que direcionarão para um conteúdo mais detalhado.
 
