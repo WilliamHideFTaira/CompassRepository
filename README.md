@@ -4,13 +4,13 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 
 # Índice
 
-1. [Sobre mim](#Sobre-mim)
-2. [Informações adicionais](#Informações-adicionais)
-3. [Meios de contato](#Contato)
-4. [Sprints](#Sprints)
-5. [Sprint 1](#Sprint-1)
-    1. [Sprint 1 - GitHub](#Sprint-1:-Git-e-Github)
-    2. [Sprint 1 - Linux](#Sprint1-Linux)
+1. [Sobre mim](#sobre-mim)
+2. [Informações adicionais](#informações-adicionais)
+3. [Meios de contato](#contato)
+4. [Sprints](#sprints)
+5. [Sprint 1](#sprint-1)
+    1. [Sprint 1 - GitHub](#sprint-1:-git-e-github)
+    2. [Sprint 1 - Linux](#sprint1-linux)
 
 ## Sobre mim:
 
@@ -29,7 +29,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 
 ## Contato:
 
-![FotoAutoral](img/profile.jpg)
+![FotoAutoral](img/profile.png)
 
 * *WhatsApp: (67) 98458-9335*
 * *Email de contato: will_taira@hotmail.com*
@@ -52,9 +52,9 @@ GitHub é um dos serviços de gerenciamento de repositórios, gratuito e é onde
 
 A operação no Git é por meio de um terminal, com comandos que podem ser agrupados por função:
 
-* [Comandos Fundamentais](Sprint-1/Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
-* [Comandos de Branches](Sprint-1/Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
-* [Comandos de atualização e compartilhamento de repositórios](Sprint-1/Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
+* [Comandos Fundamentais](sprint-1/Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
+* [Comandos de Branches](sprint-1/Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
+* [Comandos de atualização e compartilhamento de repositórios](sprint-1/Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
 * Comandos de análise e inspeção de repositórios;
 * Comandos de administração de repositórios;
 
@@ -66,4 +66,3 @@ Durante a execução de commits, é importante sempre
 
 ```
 
-[def]: #Sprint-2
