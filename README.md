@@ -69,7 +69,7 @@ Criando um novo repositório, nota-se várias abas:
 ---
 ###### Sobre Markdown
 
-O Markdown é uma forma de adicionar estilo a textos da web que o arquivo **README.MD** aceita, com adição de trechos de código, links e outros, trazendo uma experiência agradável para o usuário. Para mais informações, [veja algumas formatações do Markdown](Sprint-1/Markdown)
+O Markdown é uma forma de adicionar estilo a textos da web que o arquivo **README.MD** aceita, com adição de trechos de código, links e outros, trazendo uma experiência agradável para o usuário. Para mais informações, [veja algumas formatações do Markdown](Sprint-1/Markdown.txt)
 
 ### Sprint 1: Linux
 
