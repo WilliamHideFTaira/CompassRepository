@@ -8,4 +8,4 @@ O Git dispõe de uma série de comandos para auxiliar a administração do repos
 * `git reflog` - mapeia **todos** os passos no repositório, desde commits até mudança de branch. Ficam salvos até expirar (padrão: 30 dias);
 * `git archive --format zip --output master_files.zip master` - transforma o repositório em um arquivo compactado;
 ---
-###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository#sprint-1-git-e-github)
+###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/Sprint-1)

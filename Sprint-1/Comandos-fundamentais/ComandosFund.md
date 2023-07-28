@@ -23,4 +23,4 @@ O Git dispõe de uma série de comandos para uma boa gestão de um repositório.
 **Obs**: É possível também fazer ignorar arquivos no projeto, adicionando um arquivo chamado .gitignore e inserindo nele o nome de todos os arquivos a serem ignorados (útil para arquivos gerados automaticamente ou arquivos com informações sensíveis).
 
 ---
-###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository#sprint-1-git-e-github)
+###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/Sprint-1)
