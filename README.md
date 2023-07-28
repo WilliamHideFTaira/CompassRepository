@@ -9,7 +9,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 3. [Meios de contato](#contato)
 4. [Sprints](#sprints)
 5. [Sprint 1](#sprint-1)
-    * [Sprint 1 - GitHub](#sprint-1-git-e-github)
+    * [Sprint 1 - Git & GitHub](#sprint-1-git-e-github)
     * [Sprint 1 - Linux](#sprint-1-linux)
 
 ## Sobre mim:
