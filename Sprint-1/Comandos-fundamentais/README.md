@@ -12,12 +12,15 @@ O Git dispõe de uma série de comandos para uma boa gestão de um repositório.
 * `git rm` - remove um arquivo da monitoração do git. Caso queira adicioná-lo novamente, use `git add`;
 * `git log` - verifica o histórico de alterações do repositório;
 * `git mv` - move ou altera o nome de um arquivo no repositório **local**;
-* `git checkout` - retorna um arquivo modificado no repositório **local** ao seu estado original ou [troca de branch](Sprint-1/Comandos-branches);
+* `git checkout` - retorna um arquivo modificado no repositório **local** ao seu estado original ou troca de branch;
 * `git reset` - reinicia todas as mudanças feitas no repositório **local**. Isso aplica-se em commits e adds realizados antes do `pull`.
 * `git stash` - salva alterações atuais em um **stash** e reseta alterações do repositório **local**;
     * `git stash list` - lista stashs criadas;
     * `git stash nomedastash` - recupera as alterações de uma stash;
-    * `git stash clear` - limpa totalmente as stash de um [branch](Sprint-1/Comandos-branches); 
+    * `git stash clear` - limpa totalmente as stash de um branch; 
     * `git stash drop nomedastash` -  exclui uma stash específica;
 
-É possível também fazer ignorar arquivos no projeto, adicionando um arquivo chamado .gitignore e inserindo nele o nome de todos os arquivos a serem ignorados (útil para arquivos gerados automaticamente ou arquivos com informações sensíveis).
+**Obs**: É possível também fazer ignorar arquivos no projeto, adicionando um arquivo chamado .gitignore e inserindo nele o nome de todos os arquivos a serem ignorados (útil para arquivos gerados automaticamente ou arquivos com informações sensíveis).
+
+---
+###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository)

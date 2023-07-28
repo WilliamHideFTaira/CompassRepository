@@ -1,0 +1,43 @@
+Cabeçalho (títulos): 
+# Texto (maior)
+## Texto
+### Texto
+#### Texto
+##### Texto
+###### Texto (menor)
+
+Ênfase (negrito/itálico):
+Negrito: **texto** ou __texto__
+Itálico: *texto* ou _texto_
+Combinado: _Temos um **texto** combinado_
+
+Lista ordenada:
+1. Item 1
+2. Item 2
+...
+
+Lista não ordenada:
+* Item
+* Item
+...
+
+Imagens:
+![TextoDaImagem](link imagem)
+
+Links:
+[Texto do Link](link)
+
+Código:
+
+```
+Trecho de código
+```
+
+OU
+
+`Código`
+
+Task list:
+- [x] Tarefa concluída
+- [] Tarefa não concluída
+
