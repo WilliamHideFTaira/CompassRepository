@@ -10,11 +10,11 @@ Git é a ferramenta de controle de versão mais usada no mundo atualmente. Basei
 
 A operação no Git é por meio de um terminal, com comandos que podem ser agrupados por função:
 
-* [Comandos Fundamentais](./Comandos-fundamentais) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
-* [Comandos de Branches](./Comandos-branches) (comandos que gerenciam versões diferentes do projeto);
-* [Comandos de atualização e compartilhamento de repositórios](./Comandos-att-comp) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
-* [Comandos de análise e inspeção de repositórios](./Comandos-analise-insp) (comandos para verificar andamento do projeto, com informações sobre commits, tags e outros);
-* [Comandos de administração de repositórios](./Comandos-administracao) (comandos de gerência para otimização do repositório);
+* [Comandos Fundamentais](./Comandos-fundamentais/ComandosFund.md) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
+* [Comandos de Branches](./Comandos-branches/ComandosBranch.md) (comandos que gerenciam versões diferentes do projeto);
+* [Comandos de atualização e compartilhamento de repositórios](./Comandos-att-comp/ComandosAtt.md) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
+* [Comandos de análise e inspeção de repositórios](./Comandos-analise-insp/ComandoAnalise.md) (comandos para verificar andamento do projeto, com informações sobre commits, tags e outros);
+* [Comandos de administração de repositórios](./Comandos-administracao/ComandosAdm.md) (comandos de gerência para otimização do repositório);
 
 O GitHub é um dos serviços de gerenciamento de repositórios, gratuito e é onde ficam armazenados os projetos, podendo serem disponibilizados para todos ou mantê-los privados.
 
