@@ -10,11 +10,11 @@ Git é a ferramenta de controle de versão mais usada no mundo atualmente. Basei
 
 A operação no Git é por meio de um terminal, com comandos que podem ser agrupados por função:
 
-* [Comandos Fundamentais](./Comandos-fundamentais/ComandosFund.md) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
-* [Comandos de Branches](./Comandos-branches/ComandosBranch.md) (comandos que gerenciam versões diferentes do projeto);
-* [Comandos de atualização e compartilhamento de repositórios](./Comandos-att-comp/ComandosAtt.md) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
-* [Comandos de análise e inspeção de repositórios](./Comandos-analise-insp/ComandoAnalise.md) (comandos para verificar andamento do projeto, com informações sobre commits, tags e outros);
-* [Comandos de administração de repositórios](./Comandos-administracao/ComandosAdm.md) (comandos de gerência para otimização do repositório);
+* [Comandos Fundamentais](Comandos-git/ComandosFund.md) (comandos rotineiros de clonagem de repositório, envio de alterações e outros);
+* [Comandos de Branches](Comandos-git/ComandosBranch.md) (comandos que gerenciam versões diferentes do projeto);
+* [Comandos de atualização e compartilhamento de repositórios](Comandos-git/ComandosAtt.md) (comandos que auxiliam no compartilhamento do repositório com outros desenvolvedores);
+* [Comandos de análise e inspeção de repositórios](Comandos-git/ComandoAnalise.md) (comandos para verificar andamento do projeto, com informações sobre commits, tags e outros);
+* [Comandos de administração de repositórios](Comandos-git/ComandosAdm.md) (comandos de gerência para otimização do repositório);
 
 O GitHub é um dos serviços de gerenciamento de repositórios, gratuito e é onde ficam armazenados os projetos, podendo serem disponibilizados para todos ou mantê-los privados.
 
@@ -34,4 +34,17 @@ O Markdown é uma forma de adicionar estilo a textos da web que o arquivo **READ
 
 ### Sprint 1: Linux
 
-Linux é atualmente
+Linux (ou GNU) é um sistema operacional gratuito, utilizado na maioria dos servidores web e por grandes empresas, com uma comunidade muito ativa, com segurança e suporte nativo para diversas linguagens. O core do sistema é chamado de Kernel, que gerencia o cpu, memória etc, fazendo a ligação entre o usuário e o hardware. O sistema operacional dispõe de vários comandos para administrá-lo, separados por utilidade:
+
+* [Comandos de gerenciamento de arquivos e diretórios](Comandos-linux/Comandos-gerencia-arquivos.md) (comandos para mover-se pelos arquivos do sistema, fazer alterações em diretórios etc);
+* [Comandos de gerenciamento de pacotes](Comandos-linux/Comandos-gerencia-pacotes.md) (comandos para instalar, atualizar, remover pacotes do sistema);
+* [Comandos de busca em arquivos e diretórios](Comandos-linux/Comandos-busca.md) (comandos para encontrar arquivos e textos);
+
+Alguns outros assuntos atrelados a Linux também são importantes de se conhecer:
+* [Editores de texto do terminal](Comandos-linux/Comandos-editor-txt.md);
+* [Gerenciamento de usuários](Comandos-linux/Comandos-gerencia-users.md);
+* [Gerenciamento de permissões](Comandos-linux/Comandos-permisssoes.md);
+* [Noções básicas de redes](Comandos-linux/Gerenciamento-redes.md);
+* [Compactar e descompactar arquivos no Linux](Comandos-linux/Comandos-compactar.md);
+---
+#### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository#entrega-das-sprints)

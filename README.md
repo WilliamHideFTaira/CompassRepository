@@ -5,28 +5,20 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 # Índice
 
 1. [Sobre mim](#sobre-mim)
-2. [Informações adicionais](#informações-adicionais)
-3. [Meios de contato](#contato)
-4. [Sprint 1](#sprint-1)
+2. [Meios de contato](#contato)
+3. [Sprints](#entregas-das-sprints)
 
 ## Sobre mim:
 
 ![FotoAutoral](img/profile.png)
 
-* **Nome**: _William Hide Felix Taira_
-* **Data de Nascimento**: _04/12/1998_
-* **Cidade**: _Campo Grande - MS_
-* **Instituição de ensino**: _Universidade Federal de Mato Grosso do Sul - Cidade Universitária, Av. Costa e Silva - Pioneiros, MS, 79070-900_
-* **Curso**: _Engenharia de Software - 5° semestre_
+Olá, meu nome é _William Hide Felix Taira_, tenho 24 anos, atualmente estudante de _Engenharia de Software_ na Universidade Federal de Mato Grosso do Sul, câmpus de Campo Grande, atualmente no 5° semestre.
 
-## Informações adicionais
+Com uma sólida base em linguagens de programação como **C**, **Java**, **Python** e **Git**, além de um conhecimento em **MySql**, minha trajetória profissional tem sido marcada por uma paixão constante em aprender novas tecnologias que possam enriquecer tanto minha **carreira** quanto minha **vida pessoal**. Esse entusiasmo também se estende para o mundo dos **hardwares**, mesmo que isso se desvie um pouco da minha linha tradicional de aprendizado.
 
-* Tenho facilidade com C, Java, Python e Git;
-* Breve conhecimento de MySql;
-* Tenho entusiasmo com aprendizado de novas tecnologias que podem agregar na minha carreira e vida pessoal;
-* Apesar de ser diferente da minha linha de aprendizado, novidades de hardware em geral me deixam animado;
-* Possuo experiência com atendimento ao cliente, sempre sendo reconhecido pela minha postura e sorriso na fala;
-* Ser comunicativo e empático são minhas principais qualidades.
+Além do meu domínio técnico, trago comigo uma valiosa experiência em atendimento ao cliente, onde sempre fui reconhecido pela minha postura atenciosa e pelo sorriso presente em minhas interações. A comunicação e a empatia são características essenciais que cultivo e que me permitem construir relações interpessoais positivas.
+
+Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que possam aliar minhas habilidades **técnicas** e **sociais**. Estou pronto para abraçar oportunidades que me permitam crescer profissionalmente, expandir meu conhecimento e contribuir de forma significativa para os objetivos das organizações às quais eu possa fazer parte. Acredito que a combinação entre minha expertise em tecnologia e minhas qualidades interpessoais me posicionam de forma única para enfrentar os desafios do mercado em constante evolução.
 
 ## Contato:
 

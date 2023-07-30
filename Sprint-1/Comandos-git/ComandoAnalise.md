@@ -7,4 +7,4 @@ O Git dispõe de uma série de comandos para auxiliar na análise do repositóri
 * `git shortlog` - mostra um log resumido do projeto, cada commit sendo unido por **nome do autor**;
 * `git describe --tags` - verifica todas as tags do projeto;
 ---
-###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/Sprint-1/)
+#### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/tree/main/Sprint-1)

@@ -9,4 +9,4 @@ O Git dispõe de uma série de comandos para serviços de atualização e compar
     * `git push --recurse-submodules=on-demand` - envia commits para o repositório do submódulo;
 
 ---
-###### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/Sprint-1/)
+#### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository/tree/main/Sprint-1)
