@@ -47,4 +47,4 @@ Alguns outros assuntos atrelados a Linux também são importantes de se conhecer
 * [Noções básicas de redes](Comandos-linux/Gerenciamento-redes.md);
 * [Compactar e descompactar arquivos no Linux](Comandos-linux/Comandos-compactar.md);
 ---
-#### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository#entrega-das-sprints)
+#### [VOLTAR](https://github.com/WilliamHideFTaira/CompassRepository#entregas-das-sprints)
