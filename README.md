@@ -30,3 +30,4 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 ## Entregas das Sprints
 
 * Sprint 1 - [Entrega](./Sprint-1)
+* Sprint 2 - [Entrega](./Sprint-2)
