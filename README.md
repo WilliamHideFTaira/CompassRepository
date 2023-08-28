@@ -29,5 +29,6 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 
 ## Entregas das Sprints
 
-* Sprint 1 - [Entrega](./Sprint-1)
-* Sprint 2 - [Entrega](./Sprint-2)
+* Sprint 1 - [Git/GitHub & Linux](./Sprint-1)
+* Sprint 2 - [SQL/Banco de Dados & Big Data](./Sprint-2)
+* Sprint 3 - [Python parte 1](./Sprint-3)
