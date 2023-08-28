@@ -1,0 +1,2 @@
+2- Apresente a média de receita de bilheteria bruta dos principais filmes, considerando todos os atores. Estamos falando aqui da média da coluna Gross.
+R: MÉDIA DE RECEITA DE BILHETERIA BRUTA: $428.69 milhões de dólares.
