@@ -1,0 +1,3 @@
+Não é possível. No Docker, geralmente não é possível reiniciar um container parado e retomar de onde ele parou. Isso acontece porque os containers são como caixas isoladas que começam do zero sempre que são iniciados.
+
+No caso, é um script Python que gera resultados aleatórios, então não importa se é criado um novo container a partir da mesma imagem; ele sempre produzirá resultados diferentes porque é aleatório. Portanto, a limitação de não poder retomar estados anteriores não afeta o caso, onde cada execução é independente e aleatória.

@@ -1,0 +1,11 @@
+# Python base image
+FROM python:3.8
+
+# carguru.py para o contêiner
+COPY carguru.py /app/carguru.py
+
+# Diretório de trabalho
+WORKDIR /app
+
+# Executar script quando container for iniciado
+CMD ["python", "carguru.py"]
