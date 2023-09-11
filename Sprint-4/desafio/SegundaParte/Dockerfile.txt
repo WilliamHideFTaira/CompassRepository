@@ -1,0 +1,21 @@
+# Python base image
+
+FROM python:3.8
+
+
+
+# mascarar.py para o contêiner
+
+COPY mascarar.py /app/mascarar.py
+
+
+
+# Diretório de trabalho
+
+WORKDIR /app
+
+
+
+# Executar script quando container for iniciado
+
+CMD ["python", "mascarar.py"]

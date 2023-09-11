@@ -29,6 +29,8 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 
 ## Entregas das Sprints
 
+* [Cultura ágil e Segurança](./CulturaAgilSeguranca)
 * Sprint 1 - [Git/GitHub & Linux](./Sprint-1)
 * Sprint 2 - [SQL/Banco de Dados & Big Data](./Sprint-2)
-* Sprint 3 - [Python parte 1](./Sprint-3)
+* Sprint 3 - [Python](./Sprint-3)
+* Sprint 4 - [Estatística descritiva com Python/ Dcoker para Devs](./Sprint-4)
