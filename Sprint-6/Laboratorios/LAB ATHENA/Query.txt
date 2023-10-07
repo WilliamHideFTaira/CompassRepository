@@ -1,0 +1,26 @@
+WITH decadas AS (
+  SELECT
+    (CAST(FLOOR(ano/10)*10 AS INT)) AS decada,
+    nome,
+    SUM(total) AS nomeTotal
+  FROM pessoas
+  WHERE ano >= 1950
+  GROUP BY (CAST(FLOOR(ano/10)*10 AS INT)), nome
+),
+
+RankData AS (
+  SELECT
+    decada,
+    nome,
+    nomeTotal,
+    ROW_NUMBER() OVER(PARTITION BY decada ORDER BY nomeTotal DESC) AS rank
+  FROM decadas
+)
+
+SELECT
+    nome,
+    decada,
+    nomeTotal
+FROM RankData
+WHERE rank <= 3
+ORDER BY decada, rank;

@@ -1,0 +1,1 @@
+Esqueci de printar o Docker e seus comandos, pois fiz tudo em uma VM com Linux (mais fácil de usar o Docker). Tive alguns problemas com o VMBox e apaguei a VM antes de tirar print de tudo que fiz.
