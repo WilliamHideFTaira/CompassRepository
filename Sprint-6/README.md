@@ -4,9 +4,9 @@ Este readme.md descreve as principais etapas e realizações da Sprint. O projet
 ## Criação do Bucket S3 - bucket-will
 Para iniciar o projeto, foi criado um bucket S3 chamado "bucket-will". Dentro deste bucket, foram inseridos dois arquivos:
 
-index.html: Este arquivo foi utilizado como página inicial do site e estava configurado corretamente para funcionar como esperado.
+* index.html: Este arquivo foi utilizado como página inicial do site e estava configurado corretamente para funcionar como esperado.
 
-nomes.csv: Este arquivo continha dados relevantes para o projeto e foi utilizado na tabela de dados e na manipulação subsequente.
+* nomes.csv: Este arquivo continha dados relevantes para o projeto e foi utilizado na tabela de dados e na manipulação subsequente.
 
 ## Tabela de Dados e Análise
 Foi criada uma tabela de dados funcional, na qual os dados do arquivo nomes.csv foram carregados e manipulados com sucesso. Além disso, a funcionalidade de busca pelos três nomes que mais venderam por década desde 1950 foi implementada com sucesso.
