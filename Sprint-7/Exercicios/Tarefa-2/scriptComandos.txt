@@ -1,0 +1,26 @@
+import org.apache.spark.sql.{SparkSession, Row}
+import org.apache.spark.sql.types.{StructType, StructField, StringType, LongType}
+
+val spark = SparkSession.builder().appName("Contador de Palavras").getOrCreate()
+
+val url = "https://raw.githubusercontent.com/WilliamHideFTaira/RepositorioREADMEpublico/main/README.md"
+
+val txtCompleto = scala.io.Source.fromURL(url).mkString
+
+val txtLimpo = txtCompleto.replaceAll("[/\\-_*.,()!\\[\\]#&°:?;=@]", " ")
+
+val palavras = txtLimpo.split("\\s+").map(_.stripMargin)
+val contPalavras = palavras.groupBy(identity).mapValues(_.size)
+
+val linhas = contPalavras.toSeq.map { case (palavra, frequencia) => Row(palavra, frequencia.toLong) }
+
+val esquema = StructType(List(
+  StructField("Palavra", StringType, true),
+  StructField("Frequencia", LongType, true)
+))
+
+val dfPalavras = spark.createDataFrame(spark.sparkContext.parallelize(linhas), esquema)
+
+val dfOrdenado = dfPalavras.orderBy($"Frequencia".desc)
+
+dfOrdenado.show()

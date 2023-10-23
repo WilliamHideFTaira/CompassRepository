@@ -1,0 +1,27 @@
+1-
+Ator/atriz com o maior número de filmes:
+
+Robert DeNiro - 79 filmes
+
+
+2-
+Média do número de filmes: 37.88
+
+
+3-
+Ator/atriz com a maior média por filme:
+
+Anthony Daniels - 451.84285714285716
+
+4-
+Os 5 filmes mais frequentes e sua respectiva frequência:
+
+The Avengers                           6
+
+Catching Fire                          4
+
+Harry Potter / Deathly Hallows (P2)    4
+
+Star Wars: The Force Awakens           3
+
+The Dark Knight                        3

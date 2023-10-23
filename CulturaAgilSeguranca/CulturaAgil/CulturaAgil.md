@@ -225,3 +225,75 @@ O Modelo Spotify Squads é uma estrutura organizacional e cultural desenvolvida 
 * Pode ser complexo de implementar em organizações grandes e tradicionais;
 * Exige uma liderança forte para manter a coesão e o alinhamento.
 
+## SMART
+
+O acrônimo SMART é uma ferramenta amplamente utilizada para definir e avaliar objetivos e metas. Cada letra representa uma característica importante que um objetivo deve ter para ser eficaz. Aqui está um resumo elaborado do SMART:
+
+* **S - Específico (Specific)**: Um objetivo deve ser claro e específico. Deve responder às perguntas "O quê?", "Por quê?", "Quem?", "Onde?" e "Como?". A definição precisa ajuda a eliminar ambiguidades e a garantir um entendimento comum.
+
+* **M - Mensurável (Measurable)**: Um objetivo deve ser mensurável, o que significa que você deve ser capaz de quantificar o progresso e determinar quando ele foi alcançado. Isso envolve estabelecer critérios ou indicadores claros para medir o sucesso.
+
+* **A - Alcançável (Achievable)**: Um objetivo deve ser alcançável e realista. Isso significa que ele deve estar ao alcance com os recursos, tempo e esforço disponíveis. É importante estabelecer metas desafiadoras, mas que sejam viáveis.
+
+* **R - Relevante (Relevant)**: Um objetivo deve ser relevante para a sua visão, missão ou contexto geral. Ele deve fazer sentido e contribuir para os objetivos maiores da organização ou do projeto. Objetivos irrelevantes desperdiçam tempo e recursos.
+
+* **T - Temporal (Time-bound)**: Um objetivo deve ter um prazo definido. Estabelecer um prazo cria senso de urgência e ajuda a evitar a procrastinação. Além disso, permite que você avalie o progresso de forma consistente.
+
+#### Exemplo SMART:
+"Reduzir o tempo de resposta do suporte ao cliente em 20% até o final do próximo trimestre, fornecendo treinamento adicional à equipe de atendimento ao cliente."
+
+Neste exemplo:
+
+* **Específico**: O objetivo é claro e específico - reduzir o tempo de resposta do suporte ao cliente.
+* **Mensurável**: O progresso pode ser medido em termos de redução percentual.
+* **Alcançável**: A meta de 20% é desafiadora, mas possível com treinamento adicional.
+* **Relevante**: O objetivo está alinhado com a melhoria da satisfação do cliente.
+* **Temporal**: O prazo estabelecido é "até o final do próximo trimestre".
+
+A abordagem SMART é eficaz para criar objetivos claros, gerenciar expectativas e medir o sucesso de forma objetiva. Ela é amplamente adotada em contextos de gestão, planejamento e desenvolvimento de projetos.
+
+## Trello
+
+O Trello é uma ferramenta de gestão de projetos e colaboração baseada em quadros, cartões e listas, projetada para ajudar equipes a organizar tarefas, acompanhar projetos e trabalhar de forma eficiente. Aqui está um resumo elaborado do Trello:
+
+#### Características Principais:
+
+* Quadros (Boards): Um quadro no Trello é o espaço de trabalho principal que contém listas e cartões. Cada quadro representa um projeto, equipe ou área de foco.
+
+* Listas (Lists): Listas são colunas no quadro que representam diferentes estágios ou categorias de tarefas. Por exemplo, "A fazer," "Em andamento," e "Concluído."
+
+* Cartões (Cards): Os cartões são unidades de trabalho individuais que podem ser movidos entre as listas. Cada cartão pode conter informações, descrições, checklists, datas de vencimento e anexos.
+
+* Colaboração em Tempo Real: As equipes podem colaborar em tempo real em um quadro, adicionando comentários, atribuindo cartões a membros da equipe e anexando arquivos.
+
+* Integrações: O Trello oferece integrações com muitas outras ferramentas, como Google Drive, Slack, Dropbox e mais, para uma experiência de trabalho ainda mais integrada.
+
+* Personalização: Os usuários podem personalizar seus quadros, cartões e listas com etiquetas coloridas, prazos e muito mais.
+
+* Aplicativos para Móveis: O Trello oferece aplicativos para dispositivos móveis, permitindo que as equipes acessem e atualizem suas tarefas em movimento.
+
+#### Como o Trello é usado:
+
+* Gestão de Projetos: Equipes usam o Trello para criar quadros para cada projeto, rastreando o progresso das tarefas, definindo prioridades e atribuindo responsabilidades.
+
+* Acompanhamento de Tarefas Pessoais: Indivíduos podem usar o Trello para organizar tarefas pessoais, listas de afazeres e projetos pessoais.
+
+* Planejamento de Eventos: O Trello é útil para planejar eventos, como casamentos, festas e viagens, permitindo que os organizadores acompanhem as tarefas e os prazos.
+
+* Gestão de Equipes: Equipes remotas e distribuídas usam o Trello para manter a comunicação e a colaboração em projetos compartilhados.
+
+#### Vantagens do Trello:
+
+* Interface intuitiva e fácil de usar.
+* Flexibilidade para se adaptar a uma variedade de casos de uso.
+* Melhora a visibilidade e a transparência do progresso do trabalho.
+* Colaboração em tempo real e notificações.
+* Versão gratuita com recursos básicos e opções de upgrade.
+
+#### Desafios do Trello:
+
+* Para algumas equipes e projetos complexos, a simplicidade do Trello pode ser limitante.
+* A versão gratuita pode ter limitações para equipes maiores ou com necessidades avançadas.
+
+Em resumo, o Trello é uma ferramenta de gestão de projetos e colaboração que se destaca por sua simplicidade e flexibilidade. Ele ajuda equipes e indivíduos a organizar tarefas, rastrear o progresso e colaborar de forma eficaz em uma variedade de cenários de trabalho.
+

@@ -1,0 +1,48 @@
+{
+	"jobConfig": {
+		"name": "job_aws_glue_lab_4",
+		"description": "",
+		"role": "arn:aws:iam::933854338553:role/AWSGlueServiceRole-Lab4",
+		"command": "glueetl",
+		"version": "3.0",
+		"runtime": null,
+		"workerType": "G.1X",
+		"numberOfWorkers": 2,
+		"maxCapacity": 2,
+		"maxRetries": 0,
+		"timeout": 5,
+		"maxConcurrentRuns": 1,
+		"security": "none",
+		"scriptName": "scriptPy.py",
+		"scriptLocation": "s3://bucketlab-will/lab-glue/scripts/",
+		"language": "python-3",
+		"jobParameters": [
+			{
+				"key": "--S3_INPUT_PATH",
+				"value": "s3://bucketlab-will/lab-glue/input/nomes.csv",
+				"existing": false
+			},
+			{
+				"key": "--S3_TARGET_PATH",
+				"value": "s3://bucketlab-will/lab-glue/frequencia_registro_nomes_eua/",
+				"existing": false
+			}
+		],
+		"tags": [],
+		"jobMode": "DEVELOPER_MODE",
+		"createdOn": "2023-10-23T13:07:35.022Z",
+		"developerMode": true,
+		"connectionsList": [],
+		"temporaryDirectory": "s3://aws-glue-assets-933854338553-us-east-1/temporary/",
+		"logging": true,
+		"glueHiveMetastore": true,
+		"etlAutoTuning": true,
+		"metrics": true,
+		"bookmark": "job-bookmark-disable",
+		"sparkPath": "s3://aws-glue-assets-933854338553-us-east-1/sparkHistoryLogs/",
+		"flexExecution": false,
+		"minFlexWorkers": null
+	},
+	"hasBeenSaved": false,
+	"script": "import sys\nfrom awsglue.transforms import *\nfrom awsglue.utils import getResolvedOptions\nfrom pyspark.context import SparkContext\nfrom awsglue.context import GlueContext\nfrom awsglue.job import Job\n\n## @params: [JOB_NAME]\nargs = getResolvedOptions(sys.argv,['JOB_NAME','S3_INPUT_PATH','S3_TARGET_PATH'])\n\nsc = SparkContext()\nglueContext = GlueContext(sc)\nspark = glueContext.spark_session\njob = Job(glueContext)\njob.init(args['JOB_NAME'], args)\n\nsource_file = args['S3_INPUT_PATH']\ntarget_path = args['S3_TARGET_PATH']\n\nfrom pyspark.sql.functions import *\n\ndata = spark.read.format(\"csv\").option(\"header\", \"true\").load(source_file)\ndata.show()\ndata = data.withColumn(\"nome\", upper(col(\"nome\"))).sort(col(\"ano\").desc())\ndata.count()\n\ndata.createOrReplaceTempView(\"tabela\")\n#spark.sql(\"SELECT ano, sexo, SUM(total) AS total_nomes FROM tabela GROUP BY ano, sexo ORDER BY ano DESC\").show()\nspark.sql(\"SELECT nome, ano, MAX(total) AS totRegistros FROM tabela WHERE sexo = 'F' GROUP BY nome, ano ORDER BY totRegistros DESC LIMIT 1\").show()\nspark.sql(\"SELECT nome, ano, MAX(total) AS totRegistros FROM tabela WHERE sexo = 'M' GROUP BY nome, ano ORDER BY totRegistros DESC LIMIT 1\").show()\nspark.sql(\"SELECT ano, sexo, SUM(total) AS totRegistros FROM tabela GROUP BY ano, sexo ORDER BY ano asc LIMIT 10\").show()\ndata.write.partitionBy(\"sexo\", \"ano\").json(target_path)\n\njob.commit()"
+}

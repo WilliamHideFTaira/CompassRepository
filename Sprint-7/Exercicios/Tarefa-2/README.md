@@ -33,7 +33,7 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 * Sprint 1 - [Git/GitHub & Linux](./Sprint-1)
 * Sprint 2 - [SQL/Banco de Dados & Big Data](./Sprint-2)
 * Sprint 3 - [Python](./Sprint-3)
-* Sprint 4 - [Estatística descritiva com Python/ Docker para Devs](./Sprint-4)
+* Sprint 4 - [Estatística descritiva com Python/ Dcoker para Devs](./Sprint-4)
 * Sprint 5 - [Início AWS](./Sprint-5)
 * Sprint 6 - [Ferramentas AWS (Laboratório S3, Amazon Athena, Amazon Lambda)](.Sprint-6)
 * Sprint 7 - [Hadoop/Spark](./Sprint-7)
