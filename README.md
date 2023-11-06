@@ -37,3 +37,4 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 * Sprint 5 - [Início AWS](./Sprint-5)
 * Sprint 6 - [Ferramentas AWS (Laboratório S3, Amazon Athena, Amazon Lambda)](.Sprint-6)
 * Sprint 7 - [Hadoop/Spark](./Sprint-7)
+* Sprint 8 - [Filtro do arquivo .csv](./Sprint-8)

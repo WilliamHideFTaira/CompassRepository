@@ -10,8 +10,8 @@ from datetime import datetime
 
 # Acesso AWS
 
-chaveAWS = 'AKIA5S3QOLX44QO6G7NL'
-chaveSecretaAWS = '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'
+chaveAWS = 'key-aws'
+chaveSecretaAWS = 'secret-key'
 
 
 
