@@ -1,0 +1,42 @@
+CREATE VIEW dim_livro AS
+SELECT cod as codigo,
+       titulo as titulo,
+       edicao as edicao,
+       idioma as idioma,
+       editora as editora,
+       autor as autor
+   FROM livro l;
+
+CREATE VIEW dim_autor AS
+SELECT codautor as codigo,
+       nome as autor,
+       nascimento as datanascimento
+   FROM autor a;
+
+CREATE VIEW dim_editora AS
+SELECT e.codeditora as codigo,
+       e.nome as editora,
+       ed.cidade,
+       ed.estado,
+       ed.pais
+       t.transportadora as transportadora
+   FROM editora e
+   JOIN endereco ed on ed.coendereco = e.endereco
+   JOIN transportadora t on t.codTransp = e.codTransp;
+
+CREATE VIEW dim_cliente AS
+SELECT DISTINCT
+       codcliente as codigo,
+       nomecliente as cliente
+   FROM vendas v;
+
+CREATE VIEW fato_vendas AS
+SELECT codvenda as codigo,
+       dtvenda as data,
+       codcliente as codigocliente,
+       codlivro as codigolivro,
+       codautor as codigoautor,
+       codeditora as codigoeditora,
+       qtd as quantidadevenda,
+       vrunt as valorunitario
+   FROM vendas v;
