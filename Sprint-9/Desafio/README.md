@@ -144,7 +144,7 @@ Para a modelagem dimensional, foi usada a ferramenta do site app.sqldbm.com. Com
 
 ## Parte 3
 
-O processamento da Refined ficou no S3. Ainda não foi verificado se as estruturas estão corretas, mas na data de hoje (20/11/2023), isso ainda será analisado e resolvido. Essa mensagem não existirá posteriormente. Foi usada apenas um job para criação das tabelas do modelo dimensional, que pegou todos os arquivos parquet criados na primeira parte desse desafio, os processou em novas tabelas e foram separados em um novo bucket refined.
+O processamento da Refined ficou no S3. Foi usada um job para criação das tabelas do modelo dimensional, que pegou todos os arquivos parquet criados na primeira parte desse desafio, os processou em novas tabelas e foram separados em um novo bucket refined. Após isso, foi usado um Crawler para colocar as tabelas no Athena, e neste foram criadas views.
 ```
 # Criação da tabela dimensional DIMDiretores
 dfDIMDiretores = spark.sql("""
