@@ -12,7 +12,7 @@ O intuito desse projeto é guardar todos os conteúdos dos cursos apresentados p
 
 ![FotoAutoral](img/profile.png)
 
-Olá, meu nome é _William Hide Felix Taira_, tenho 24 anos, atualmente estudante de _Engenharia de Software_ na Universidade Federal de Mato Grosso do Sul, câmpus de Campo Grande, atualmente no 5° semestre.
+Olá, meu nome é _William Hide Felix Taira_, tenho 25 anos, atualmente estudante de _Engenharia de Software_ na Universidade Federal de Mato Grosso do Sul, câmpus de Campo Grande, atualmente no 6° semestre.
 
 Com uma sólida base em linguagens de programação como **C**, **Java**, **Python** e **Git**, além de um conhecimento em **MySql**, minha trajetória profissional tem sido marcada por uma paixão constante em aprender novas tecnologias que possam enriquecer tanto minha **carreira** quanto minha **vida pessoal**. Esse entusiasmo também se estende para o mundo dos **hardwares**, mesmo que isso se desvie um pouco da minha linha tradicional de aprendizado.
 
@@ -40,3 +40,4 @@ Sinto-me inspirado e motivado por novos desafios, especialmente aqueles que poss
 * Sprint 8 - [Filtro do arquivo .csv](./Sprint-8)
 * Sprint 9 - [Camada Trusted e Refined](./Sprint-9/)
 * Sprint 10 - [Entrega Final](./Sprint-10/)
+
