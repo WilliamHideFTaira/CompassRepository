@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-from IPython.display import display
+# from IPython.display import display
 
 api_key = "CHAVE_API" # CHAVE REMOVIDA POR QUESTÕES DE SEGURANÇA
 
@@ -23,4 +23,4 @@ for movie in data['results']:
 
 df = pd.DataFrame(filmes)
 # df.to_json("filmes.json", orient="records", lines=True)
-display(df)
+# display(df)
